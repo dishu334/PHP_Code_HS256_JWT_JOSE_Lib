@@ -25,7 +25,7 @@ use Jose\Component\Core\JWK;
 
 $jsonString = '{"user_id": 2222, "username": "john_doe"}';
 
-$base64EncodedSecretKey = 'AQY83aLVgfxWTKpXczZEx/HZoVH7w+wuvOMdeJZW2Ic=='; // Your base64 encoded secret key
+$base64EncodedSecretKey = 'Random Generated 32 byte AES Base64 Encoded Key'; // Your base64 encoded secret key
 
 try {
     $signedJwt = signJsonString($jsonString, $base64EncodedSecretKey);
